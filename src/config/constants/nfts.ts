@@ -3,7 +3,7 @@ import { Nft, NftSource, NftType } from './types'
 export const IPFS_GATEWAY = 'https://gateway.pinata.cloud'
 
 export const nftSources: NftSource = {
-  [NftType.PANCAKE]: {
+  [NftType.PAPAYA]: {
     address: {
       56: '0xDf7952B35f24aCF7fC0487D01c8d5690a60DBa07',
       97: '0x60935F36e4631F73f0f407e68642144e07aC7f5E',
@@ -22,7 +22,7 @@ export const nftSources: NftSource = {
 const Nfts: Nft[] = [
   {
     name: 'Mixie v1',
-    description: 'Stories were told, and songs were sung, about Chef Mixie’s pancakes and her big Syrup gun.',
+    description: 'Stories were told, and songs were sung, about Chef Mixie’s PAPAYAs and her big Syrup gun.',
     images: {
       lg: 'mixie-1-lg.png',
       md: 'mixie-1-md.png',
@@ -36,7 +36,7 @@ const Nfts: Nft[] = [
   },
   {
     name: 'Mixie v2',
-    description: 'Stories were told, and songs were sung, about Chef Mixie’s pancakes and her big Syrup gun.',
+    description: 'Stories were told, and songs were sung, about Chef Mixie’s PAPAYAs and her big Syrup gun.',
     images: {
       lg: 'mixie-2-lg.png',
       md: 'mixie-2-md.png',
@@ -50,7 +50,7 @@ const Nfts: Nft[] = [
   },
   {
     name: 'Mixie v3',
-    description: 'Stories were told, and songs were sung, about Chef Mixie’s pancakes and her big Syrup gun.',
+    description: 'Stories were told, and songs were sung, about Chef Mixie’s PAPAYAs and her big Syrup gun.',
     images: {
       lg: 'mixie-3-lg.png',
       md: 'mixie-3-md.png',
@@ -79,7 +79,7 @@ const Nfts: Nft[] = [
     },
     sortOrder: 999,
     identifier: 'easter-champion-storm',
-    type: NftType.PANCAKE,
+    type: NftType.PAPAYA,
     variationId: 15,
   },
   {
@@ -93,7 +93,7 @@ const Nfts: Nft[] = [
     },
     sortOrder: 999,
     identifier: 'easter-caker',
-    type: NftType.PANCAKE,
+    type: NftType.PAPAYA,
     variationId: 15,
   },
   {
@@ -107,7 +107,7 @@ const Nfts: Nft[] = [
     },
     sortOrder: 999,
     identifier: 'easter-flipper',
-    type: NftType.PANCAKE,
+    type: NftType.PAPAYA,
     variationId: 14,
   },
   {
@@ -121,7 +121,7 @@ const Nfts: Nft[] = [
     },
     sortOrder: 999,
     identifier: 'easter-storm',
-    type: NftType.PANCAKE,
+    type: NftType.PAPAYA,
     variationId: 12,
   },
   {
@@ -139,7 +139,7 @@ const Nfts: Nft[] = [
     },
     sortOrder: 999,
     identifier: 'bullish',
-    type: NftType.PANCAKE,
+    type: NftType.PAPAYA,
     variationId: 11,
   },
   {
@@ -153,12 +153,12 @@ const Nfts: Nft[] = [
     },
     sortOrder: 999,
     identifier: 'hiccup',
-    type: NftType.PANCAKE,
+    type: NftType.PAPAYA,
     variationId: 10,
   },
   {
     name: 'Sleepy',
-    description: 'Aww, looks like eating pancakes all day is tough work. Sweet dreams!',
+    description: 'Aww, looks like eating PAPAYAs all day is tough work. Sweet dreams!',
     images: {
       lg: 'sleepy-lg.png',
       md: 'sleepy-md.png',
@@ -168,12 +168,12 @@ const Nfts: Nft[] = [
     },
     sortOrder: 999,
     identifier: 'sleepy',
-    type: NftType.PANCAKE,
+    type: NftType.PAPAYA,
     variationId: 5,
   },
   {
     name: 'Sunny',
-    description: 'Sunny is always cheerful when there are pancakes around. Smile!',
+    description: 'Sunny is always cheerful when there are PAPAYAs around. Smile!',
     images: {
       lg: 'sunny-lg.png',
       md: 'sunny-md.png',
@@ -183,7 +183,7 @@ const Nfts: Nft[] = [
     },
     sortOrder: 999,
     identifier: 'sunny',
-    type: NftType.PANCAKE,
+    type: NftType.PAPAYA,
     variationId: 9,
   },
   {
@@ -198,7 +198,7 @@ const Nfts: Nft[] = [
     },
     sortOrder: 999,
     identifier: 'churro',
-    type: NftType.PANCAKE,
+    type: NftType.PAPAYA,
     variationId: 8,
   },
   {
@@ -213,7 +213,7 @@ const Nfts: Nft[] = [
     },
     sortOrder: 999,
     identifier: 'dollop',
-    type: NftType.PANCAKE,
+    type: NftType.PAPAYA,
     variationId: 6,
   },
   {
@@ -228,12 +228,12 @@ const Nfts: Nft[] = [
     },
     sortOrder: 999,
     identifier: 'twinkle',
-    type: NftType.PANCAKE,
+    type: NftType.PAPAYA,
     variationId: 7,
   },
   {
     name: 'Swapsies',
-    description: 'These bunnies love nothing more than swapping pancakes. Especially on BSC.',
+    description: 'These bunnies love nothing more than swapping PAPAYAs. Especially on BSC.',
     images: {
       lg: 'swapsies-lg.png',
       md: 'swapsies-md.png',
@@ -243,7 +243,7 @@ const Nfts: Nft[] = [
     },
     sortOrder: 999,
     identifier: 'swapsies',
-    type: NftType.PANCAKE,
+    type: NftType.PAPAYA,
     variationId: 0,
   },
   {
@@ -258,12 +258,12 @@ const Nfts: Nft[] = [
     },
     sortOrder: 999,
     identifier: 'drizzle',
-    type: NftType.PANCAKE,
+    type: NftType.PAPAYA,
     variationId: 1,
   },
   {
     name: 'Blueberries',
-    description: "These bunnies like their pancakes with blueberries. What's your favorite topping?",
+    description: "These bunnies like their PAPAYAs with blueberries. What's your favorite topping?",
     images: {
       lg: 'blueberries-lg.png',
       md: 'blueberries-md.png',
@@ -273,12 +273,12 @@ const Nfts: Nft[] = [
     },
     sortOrder: 999,
     identifier: 'blueberries',
-    type: NftType.PANCAKE,
+    type: NftType.PAPAYA,
     variationId: 2,
   },
   {
     name: 'Circular',
-    description: "Love makes the world go 'round... but so do pancakes. And these bunnies know it.",
+    description: "Love makes the world go 'round... but so do PAPAYAs. And these bunnies know it.",
     images: {
       lg: 'circular-lg.png',
       md: 'circular-md.png',
@@ -288,12 +288,12 @@ const Nfts: Nft[] = [
     },
     sortOrder: 999,
     identifier: 'circular',
-    type: NftType.PANCAKE,
+    type: NftType.PAPAYA,
     variationId: 3,
   },
   {
     name: 'Sparkle',
-    description: 'It’s sparkling syrup, pancakes, and even lottery tickets! This bunny really loves it.',
+    description: 'It’s sparkling syrup, PAPAYAs, and even lottery tickets! This bunny really loves it.',
     images: {
       lg: 'sparkle-lg.png',
       md: 'sparkle-md.png',
@@ -303,7 +303,7 @@ const Nfts: Nft[] = [
     },
     sortOrder: 999,
     identifier: 'sparkle',
-    type: NftType.PANCAKE,
+    type: NftType.PAPAYA,
     variationId: 4,
   },
 ]
