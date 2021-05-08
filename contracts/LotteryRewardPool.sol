@@ -3,7 +3,6 @@ pragma solidity =0.5.16;
 
 import './MasterChef.sol';
 
-
 contract Context {
     // Empty internal constructor, to prevent people from mistakenly deploying
     // an instance of this contract, which should be used via inheritance.
@@ -77,8 +76,6 @@ contract Ownable is Context {
         _owner = newOwner;
     }
 }
-
-
 
 library Address {
     /**
@@ -235,8 +232,6 @@ library Address {
     }
 }
 
-
-
 interface IBEP20 {
     /**
      * @dev Returns the amount of tokens in existence.
@@ -331,7 +326,6 @@ interface IBEP20 {
      */
     event Approval(address indexed owner, address indexed spender, uint256 value);
 }
-
 
 library SafeMath {
     /**
@@ -506,8 +500,6 @@ library SafeMath {
     }
 }
 
-
-
 library SafeBEP20 {
     using SafeMath for uint256;
     using Address for address;
@@ -592,7 +584,6 @@ library SafeBEP20 {
         }
     }
 }
-
 
 
 contract LotteryRewardPool is Ownable {

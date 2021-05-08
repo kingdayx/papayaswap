@@ -1,9 +1,6 @@
 // SPDX-License-Identifier: MIT
 pragma solidity =0.5.16;
 
-
-
-
 library SafeMath {
     /**
      * @dev Returns the addition of two unsigned integers, reverting on
@@ -176,8 +173,6 @@ library SafeMath {
         }
     }
 }
-
-
 
 interface IBEP20 {
     /**
@@ -429,9 +424,6 @@ library Address {
     }
 }
 
-
-
-
 library SafeBEP20 {
     using SafeMath for uint256;
     using Address for address;
@@ -516,21 +508,6 @@ library SafeBEP20 {
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // SousChef is the chef of new tokens. He can make yummy food and he is a fair guy as well as MasterChef.
 contract SousChef {

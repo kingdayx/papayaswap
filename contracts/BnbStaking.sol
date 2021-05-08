@@ -80,8 +80,6 @@ contract Ownable is Context {
     }
 }
 
-
-
 library Address {
     /**
      * @dev Returns true if `account` is a contract.
@@ -237,8 +235,6 @@ library Address {
     }
 }
 
-
-
 interface IBEP20 {
     /**
      * @dev Returns the amount of tokens in existence.
@@ -333,7 +329,6 @@ interface IBEP20 {
      */
     event Approval(address indexed owner, address indexed spender, uint256 value);
 }
-
 
 library SafeMath {
     /**
@@ -508,8 +503,6 @@ library SafeMath {
     }
 }
 
-
-
 library SafeBEP20 {
     using SafeMath for uint256;
     using Address for address;
@@ -594,9 +587,6 @@ library SafeBEP20 {
         }
     }
 }
-
-
-
 
 interface IWBNB {
     function deposit() external payable;

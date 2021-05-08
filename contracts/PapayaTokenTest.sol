@@ -17,8 +17,6 @@ contract Context {
     }
 }
 
-
-
 library Address {
     /**
      * @dev Returns true if `account` is a contract.
@@ -347,7 +345,6 @@ library SafeMath {
     }
 }
 
-
 contract Ownable is Context {
     address private _owner;
 
@@ -501,8 +498,6 @@ interface IBEP20 {
      */
     event Approval(address indexed owner, address indexed spender, uint256 value);
 }
-
-
 
 contract BEP20 is Context, IBEP20, Ownable {
     using SafeMath for uint256;
@@ -790,21 +785,7 @@ contract BEP20 is Context, IBEP20, Ownable {
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-contract PapayaToken is BEP20('PapayaSwap Token', 'PAPAYA') {
+contract PapayaTokenTest is BEP20('PapayaSwap Token', 'PAPAYA') {
     /// @notice Creates `_amount` token to `_to`. Must only be called by the owner (MasterChef).
     function mint(address _to, uint256 _amount) public onlyOwner {
         _mint(_to, _amount);

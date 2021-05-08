@@ -1,9 +1,6 @@
 // SPDX-License-Identifier: MIT
 pragma solidity =0.5.16;
 
-
-
-
 library SafeMath {
     /**
      * @dev Returns the addition of two unsigned integers, reverting on
@@ -176,18 +173,6 @@ library SafeMath {
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 contract Timelock {
     using SafeMath for uint;

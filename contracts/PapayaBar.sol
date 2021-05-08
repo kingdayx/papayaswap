@@ -3,28 +3,6 @@ pragma solidity =0.5.16;
 
 import "./PapayaToken.sol";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // SyrupBar with Governance.
 contract PapayaBar is BEP20('PapayaBar Token', 'PAPAYABAR') {
     /// @notice Creates `_amount` token to `_to`. Must only be called by the owner (MasterChef).

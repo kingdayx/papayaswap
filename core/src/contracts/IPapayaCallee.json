@@ -32,25 +32,25 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[{\"internalType\":\"address\",\"name\":\"sender\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amount0\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"amount1\",\"type\":\"uint256\"},{\"internalType\":\"bytes\",\"name\":\"data\",\"type\":\"bytes\"}],\"name\":\"papayaCall\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/C/Users/Admin/Desktop/Dapp/papayaswap/core/contracts/interfaces/IPapayaCallee.sol\":\"IPapayaCallee\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Users/Admin/Desktop/Dapp/papayaswap/core/contracts/interfaces/IPapayaCallee.sol\":{\"keccak256\":\"0xfe406c7d371eec61663dd2c63fac44be7b5cc3a1487e60af80f1987530c93bdb\",\"urls\":[\"bzz-raw://94497473697e3c8fff1f0f71597739d927bdd4ea677382a3ba35c2f92b93a282\",\"dweb:/ipfs/QmVJL2KjQMjQ7KyHeK7HdSi6PfAvRvxAzau88Q6nUaRsWE\"]}},\"version\":1}",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[{\"internalType\":\"address\",\"name\":\"sender\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amount0\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"amount1\",\"type\":\"uint256\"},{\"internalType\":\"bytes\",\"name\":\"data\",\"type\":\"bytes\"}],\"name\":\"papayaCall\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/C/Users/Admin/Desktop/Dapp/papayaswap/core/contracts/interfaces/IPapayaCallee.sol\":\"IPapayaCallee\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Users/Admin/Desktop/Dapp/papayaswap/core/contracts/interfaces/IPapayaCallee.sol\":{\"keccak256\":\"0xc94a6f0c8a6bf4a1b73807a8531cec4a0fb232831ef426897e7bdad52905450b\",\"urls\":[\"bzz-raw://104b244d000b953be2268dacd99dec999eca77923d7f53b4a746264cbe65b1c9\",\"dweb:/ipfs/QmTbdipA1qu2LrENQ9upDKLtLa8JUSLAXMNaEA2yXHZ1YY\"]}},\"version\":1}",
   "bytecode": "0x",
   "deployedBytecode": "0x",
   "sourceMap": "",
   "deployedSourceMap": "",
-  "source": "pragma solidity >=0.5.0;\n\ninterface IPapayaCallee {\n    function papayaCall(address sender, uint amount0, uint amount1, bytes calldata data) external;\n}\n",
-  "sourcePath": "C:/Users/Admin/Desktop/Dapp/papayaswap/core/contracts/interfaces/IPapayaCallee.sol",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.5.0;\n\ninterface IPapayaCallee {\n    function papayaCall(address sender, uint amount0, uint amount1, bytes calldata data) external;\n}\n",
+  "sourcePath": "C:\\Users\\Admin\\Desktop\\Dapp\\papayaswap\\core\\contracts\\interfaces\\IPapayaCallee.sol",
   "ast": {
     "absolutePath": "/C/Users/Admin/Desktop/Dapp/papayaswap/core/contracts/interfaces/IPapayaCallee.sol",
     "exportedSymbols": {
       "IPapayaCallee": [
-        482
+        1765
       ]
     },
-    "id": 483,
+    "id": 1766,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 470,
+        "id": 1753,
         "literals": [
           "solidity",
           ">=",
@@ -58,7 +58,7 @@
           ".0"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:24:2"
+        "src": "32:24:6"
       },
       {
         "baseContracts": [],
@@ -66,9 +66,9 @@
         "contractKind": "interface",
         "documentation": null,
         "fullyImplemented": false,
-        "id": 482,
+        "id": 1765,
         "linearizedBaseContracts": [
-          482
+          1765
         ],
         "name": "IPapayaCallee",
         "nodeType": "ContractDefinition",
@@ -76,23 +76,23 @@
           {
             "body": null,
             "documentation": null,
-            "id": 481,
+            "id": 1764,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "papayaCall",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 479,
+              "id": 1762,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 472,
+                  "id": 1755,
                   "name": "sender",
                   "nodeType": "VariableDeclaration",
-                  "scope": 481,
-                  "src": "76:14:2",
+                  "scope": 1764,
+                  "src": "108:14:6",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -100,10 +100,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 471,
+                    "id": 1754,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "76:7:2",
+                    "src": "108:7:6",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -115,11 +115,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 474,
+                  "id": 1757,
                   "name": "amount0",
                   "nodeType": "VariableDeclaration",
-                  "scope": 481,
-                  "src": "92:12:2",
+                  "scope": 1764,
+                  "src": "124:12:6",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -127,10 +127,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 473,
+                    "id": 1756,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "92:4:2",
+                    "src": "124:4:6",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -141,11 +141,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 476,
+                  "id": 1759,
                   "name": "amount1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 481,
-                  "src": "106:12:2",
+                  "scope": 1764,
+                  "src": "138:12:6",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -153,10 +153,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 475,
+                    "id": 1758,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "106:4:2",
+                    "src": "138:4:6",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -167,11 +167,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 478,
+                  "id": 1761,
                   "name": "data",
                   "nodeType": "VariableDeclaration",
-                  "scope": 481,
-                  "src": "120:19:2",
+                  "scope": 1764,
+                  "src": "152:19:6",
                   "stateVariable": false,
                   "storageLocation": "calldata",
                   "typeDescriptions": {
@@ -179,10 +179,10 @@
                     "typeString": "bytes"
                   },
                   "typeName": {
-                    "id": 477,
+                    "id": 1760,
                     "name": "bytes",
                     "nodeType": "ElementaryTypeName",
-                    "src": "120:5:2",
+                    "src": "152:5:6",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes_storage_ptr",
                       "typeString": "bytes"
@@ -192,33 +192,33 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "75:65:2"
+              "src": "107:65:6"
             },
             "returnParameters": {
-              "id": 480,
+              "id": 1763,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "149:0:2"
+              "src": "181:0:6"
             },
-            "scope": 482,
-            "src": "56:94:2",
+            "scope": 1765,
+            "src": "88:94:6",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "external"
           }
         ],
-        "scope": 483,
-        "src": "26:126:2"
+        "scope": 1766,
+        "src": "58:126:6"
       }
     ],
-    "src": "0:153:2"
+    "src": "32:153:6"
   },
   "legacyAST": {
     "attributes": {
       "absolutePath": "/C/Users/Admin/Desktop/Dapp/papayaswap/core/contracts/interfaces/IPapayaCallee.sol",
       "exportedSymbols": {
         "IPapayaCallee": [
-          482
+          1765
         ]
       }
     },
@@ -232,9 +232,9 @@
             ".0"
           ]
         },
-        "id": 470,
+        "id": 1753,
         "name": "PragmaDirective",
-        "src": "0:24:2"
+        "src": "32:24:6"
       },
       {
         "attributes": {
@@ -248,10 +248,10 @@
           "documentation": null,
           "fullyImplemented": false,
           "linearizedBaseContracts": [
-            482
+            1765
           ],
           "name": "IPapayaCallee",
-          "scope": 483
+          "scope": 1766
         },
         "children": [
           {
@@ -265,7 +265,7 @@
                 null
               ],
               "name": "papayaCall",
-              "scope": 482,
+              "scope": 1765,
               "stateMutability": "nonpayable",
               "superFunction": null,
               "visibility": "external"
@@ -277,7 +277,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "sender",
-                      "scope": 481,
+                      "scope": 1764,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "address",
@@ -291,20 +291,20 @@
                           "stateMutability": "nonpayable",
                           "type": "address"
                         },
-                        "id": 471,
+                        "id": 1754,
                         "name": "ElementaryTypeName",
-                        "src": "76:7:2"
+                        "src": "108:7:6"
                       }
                     ],
-                    "id": 472,
+                    "id": 1755,
                     "name": "VariableDeclaration",
-                    "src": "76:14:2"
+                    "src": "108:14:6"
                   },
                   {
                     "attributes": {
                       "constant": false,
                       "name": "amount0",
-                      "scope": 481,
+                      "scope": 1764,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "uint256",
@@ -317,20 +317,20 @@
                           "name": "uint",
                           "type": "uint256"
                         },
-                        "id": 473,
+                        "id": 1756,
                         "name": "ElementaryTypeName",
-                        "src": "92:4:2"
+                        "src": "124:4:6"
                       }
                     ],
-                    "id": 474,
+                    "id": 1757,
                     "name": "VariableDeclaration",
-                    "src": "92:12:2"
+                    "src": "124:12:6"
                   },
                   {
                     "attributes": {
                       "constant": false,
                       "name": "amount1",
-                      "scope": 481,
+                      "scope": 1764,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "uint256",
@@ -343,20 +343,20 @@
                           "name": "uint",
                           "type": "uint256"
                         },
-                        "id": 475,
+                        "id": 1758,
                         "name": "ElementaryTypeName",
-                        "src": "106:4:2"
+                        "src": "138:4:6"
                       }
                     ],
-                    "id": 476,
+                    "id": 1759,
                     "name": "VariableDeclaration",
-                    "src": "106:12:2"
+                    "src": "138:12:6"
                   },
                   {
                     "attributes": {
                       "constant": false,
                       "name": "data",
-                      "scope": 481,
+                      "scope": 1764,
                       "stateVariable": false,
                       "storageLocation": "calldata",
                       "type": "bytes",
@@ -369,19 +369,19 @@
                           "name": "bytes",
                           "type": "bytes"
                         },
-                        "id": 477,
+                        "id": 1760,
                         "name": "ElementaryTypeName",
-                        "src": "120:5:2"
+                        "src": "152:5:6"
                       }
                     ],
-                    "id": 478,
+                    "id": 1761,
                     "name": "VariableDeclaration",
-                    "src": "120:19:2"
+                    "src": "152:19:6"
                   }
                 ],
-                "id": 479,
+                "id": 1762,
                 "name": "ParameterList",
-                "src": "75:65:2"
+                "src": "107:65:6"
               },
               {
                 "attributes": {
@@ -390,24 +390,24 @@
                   ]
                 },
                 "children": [],
-                "id": 480,
+                "id": 1763,
                 "name": "ParameterList",
-                "src": "149:0:2"
+                "src": "181:0:6"
               }
             ],
-            "id": 481,
+            "id": 1764,
             "name": "FunctionDefinition",
-            "src": "56:94:2"
+            "src": "88:94:6"
           }
         ],
-        "id": 482,
+        "id": 1765,
         "name": "ContractDefinition",
-        "src": "26:126:2"
+        "src": "58:126:6"
       }
     ],
-    "id": 483,
+    "id": 1766,
     "name": "SourceUnit",
-    "src": "0:153:2"
+    "src": "32:153:6"
   },
   "compiler": {
     "name": "solc",
@@ -415,7 +415,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.0",
-  "updatedAt": "2021-04-30T14:21:03.644Z",
+  "updatedAt": "2021-05-03T09:05:01.616Z",
   "devdoc": {
     "methods": {}
   },
